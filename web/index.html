@@ -263,10 +263,11 @@
       sweepsCount++;
       ramBytes = 0;
       activeGloss = 0;
+      document.getElementById('inputText').value = '';
       updateGlossUI();
       document.getElementById('ramStatus').textContent = `UMA RAM: 0 B | Sweeps: ${sweepsCount}`;
       document.getElementById('outputBox').textContent =
-        `[04:23 ASH SWEEPER #${sweepsCount}]: 64KB UMA RAM aréna kompletně vynulována.`;
+        `[04:23 ASH SWEEPER #${sweepsCount}]: 64KB UMA RAM aréna a text kompletně vyčištěny.`;
     };
 
     const canvas = document.getElementById('avatarCanvas');
@@ -288,9 +289,11 @@
 
     function render(now) {
       const dpr = window.devicePixelRatio || 2;
-      if (canvas.width !== canvas.clientWidth * dpr) {
-        canvas.width = canvas.clientWidth * dpr;
-        canvas.height = canvas.clientHeight * dpr;
+      const targetW = Math.round(canvas.clientWidth * dpr);
+      const targetH = Math.round(canvas.clientHeight * dpr);
+      if (canvas.width !== targetW || canvas.height !== targetH) {
+        canvas.width = targetW;
+        canvas.height = targetH;
       }
       ctx.save();
       ctx.scale(dpr, dpr);
