@@ -1,6 +1,6 @@
 # 🌊 Asterisk: Vltava Spatial Symphony & Sign Engine
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Verification: Level 4 Gold](https://img.shields.io/badge/SPARK%202022-Level%204%20Gold%20(DO--178C%20DAL--A)-brightgreen)](spark/)
 [![Meta VR Start](https://img.shields.io/badge/Meta%20VR%20Start-Developer%20Competition%202026-blue)](https://start-developer-competition-26.devpost.com/)
 [![Status: Locked For Judging](https://img.shields.io/badge/Status-Locked%20for%20Judging-blue)](https://devpost.com/software/asterisk-sovereign-3d-spatial-sign-engine)
@@ -57,4 +57,4 @@ Result: **738 / 738 checks proved (100% Level 4 Gold, DO-178C DAL-A)**.
 This repository is **locked and frozen** for the judging evaluation of the Meta VR Start Developer Competition 2026.
 
 ## 📜 License
-Released under the [MIT License](LICENSE).
+Released under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE).
